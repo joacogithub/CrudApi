@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>CRUD</title>
+</head>
+<body>
+    
+    <h1>CREATE, READ, UPDATE, & DELETE</h1>
+
+    <form id="registroForm">
+
+        <label for="txtName">Nombre</label>
+        <input type="text" id="txtName">
+        <br>
+        <label for="txtSurname">Apellido</label>
+        <input type="text" id="txtSurname">
+        <br>
+        <label for="txtGroup">Grupo</label>
+        <input type="text" id="txtGroup">
+        <br>
+        <label for="txtSala">Sala</label>
+        <input type="text" id="txtSala">
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h1>Tabla de Registros</h1>
+
+    <table id="tablaRegistros">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Grupo</th>
+                <th>Sala</th>
+                <th>Editar</th>
+                <th>Eliminar</th>
+            </tr>    
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <br>
+    <form id="edicionForm" class="oculto">
+        <label for="asacac"></label>
+        <input type="text" name="" id="asacac">
+    </form>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
